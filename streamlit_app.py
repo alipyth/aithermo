@@ -14,7 +14,7 @@ API = "AIzaSyBIpp1qQ6kNvphSlxHlsRsSFUlpn-LXUko"
 genai.configure(api_key=API)
 model = genai.GenerativeModel('gemini-pro-vision')
 picture = st.camera_input("Take a picture")
-pr = 'According to This Picture ,Act Like A Interior Designer and Tell Me How Can I Improve My Design , at the end tell me what you see in this image '
+pr = 'How can i improve Design of my room ? and tell me what you see in the image'
 but = st.button('Lets Go')
 if picture and but :
     img = Image.open(picture)
