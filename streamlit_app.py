@@ -9,7 +9,7 @@ from deep_translator.google import GoogleTranslator
 
 #api = st.text_input('put your api')
 
-API = "AIzaSyBIpp1qQ6kNvphSlxHlsRsSFUlpn-LXUko"
+API = "Put Your API Here"
 
 genai.configure(api_key=API)
 model = genai.GenerativeModel('gemini-pro-vision')
